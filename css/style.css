@@ -1,0 +1,103 @@
+:root{
+--brandcolor:#1E2939;
+--text-color-sidebar:#FFF;
+--sidebar-bullets:#FB6D3A;
+--text-color-about-me:#000;
+}
+
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+img{
+    width: 370px;
+    height: 354px;
+}
+
+ul{
+padding: 0;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-section{
+    padding-left: 113px;
+    padding-top:102px
+}
+
+.about-me-position{
+    color: var(--text-color-about-me);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.person-name{
+    color: var(--text-color-about-me);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.block-title{
+    color: var(--text-color-about-me);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sidebar-section{
+    background: var(--brandcolor);
+    padding-left: 20px;
+    width:100%
+}
+
+
+
+.sidebar-title{
+    color: var(--text-color-sidebar);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contacts-section-type{
+    color:var(--text-color-sidebar);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 171.429%;
+    
+}
+
+
+.contacts-section-value{
+    opacity: 0.5;
+    color: var(--text-color-sidebar);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sidebar-list{
+    color: var(--sidebar-bullets);
+    padding-left:20px;
+}
+.sidebar-list span{
+    color: var(--text-color-sidebar);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+}
+
+
+
+@media screen and (width >=768px){
+    .main-section {
+        display: flex;
+        flex-direction: row-reverse;
+        }
+}
+
