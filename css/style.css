@@ -28,8 +28,9 @@ padding: 0;
 }
 
 .about-me-section{
-    padding-left: 113px;
-    padding-top:102px
+    padding-left: 50px;
+    padding-top:100px;
+    padding-right:50px;
 }
 
 .about-me-position{
